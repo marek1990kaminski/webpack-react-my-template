@@ -1,6 +1,8 @@
 import "../css/main.scss";
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
+import TopList from './top_list'
+
 
 import component from "./component";
 
@@ -28,6 +30,7 @@ class App extends Component {
         return(
             <div>
                 <p>nowwwwww</p>
+                <TopList/>
             </div>
         );
     }
