@@ -31,11 +31,12 @@ const commonConfig = merge([
                 },
                 {
                     test: /\.js$/,
+                    exclude: /node_modules/,
                     use: [
                         {
                             loader: 'babel-loader',
                             options: {
-                                presets: ['env']
+                                presets: ['env', 'react']
                             },
                         }
                     ]
