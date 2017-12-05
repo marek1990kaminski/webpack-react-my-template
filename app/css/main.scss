@@ -1,0 +1,20 @@
+@import 'colors';
+
+body {
+    background  : url("../img/cornjpg.jpg") no-repeat center;
+    background-size: inherit;
+    font-weight : 500;
+    color       : $fontColor;
+    font-family : "Arial";
+    /*display     : flex;*/
+
+}
+
+.emperor {
+    background  : $background;
+    font-weight : 500;
+    color       : $fontColor;
+    font-family : "Arial";
+    display     : flex;
+    border      : 3px solid red;
+}
